@@ -4,7 +4,7 @@ import { toString } from '../../utils/helper'
 
 describe('Global API: extend', () => {
   let oriConsole
-  let countWarn = 0
+  let countWarn = 0 // eslint-disable-line no-unused-vars
   let countError = 0
 
   beforeEach(() => {
